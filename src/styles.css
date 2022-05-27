@@ -1,0 +1,179 @@
+body{
+    font-family: 'Indie Flower', cursive;
+}
+
+section{
+    background-color: white;
+}
+
+.hero{
+    background-color: #587d96;
+    height: 100vh;
+    color: white;
+    font-size: 40px;
+}
+footer{
+    background-color: #587d96;
+    color: white;
+    text-align: center;
+    padding: 80px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    width: 500px;
+    justify-content: space-around;
+    font-size: 25px;
+}
+
+ul.show{
+    display: block
+}
+
+li{
+    
+    text-decoration: none;
+}
+
+h1{
+    font-size: 90px;
+    margin: 0;
+}
+h2{
+    font-size: 50px;
+}
+
+p{
+    margin: 0;
+    font-size: 65px;
+}
+.subtext{
+    font-size: 15px;
+    font-weight: bold;
+}
+p1{
+    font-size: 25px;
+    font-weight: bold;
+}
+.hero-area{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: space-between;
+}
+.hero-text{
+    margin-left: 80px;
+    margin-bottom: 400px;
+}
+.button{
+    width: 200px;
+    height: 55px;
+    border-radius: 30px;
+    background-color: coral;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button:hover{
+    background-color: #ef744b;
+}
+.button:active{
+    background-color: #A9A9A9;
+    color: black;
+
+}
+.socials{
+    padding-bottom: 300px;
+}
+.logo{
+    height: 150px;
+    margin: 20px;
+}
+.social{
+    margin: 10px;
+}
+
+.sub-section{
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+.sub-section-alt{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px;
+}
+
+.headshot{
+    width: 200px;
+    border-radius: 150px
+}
+.headshot-container{
+    display: flex;
+    align-items: center;
+}
+.project-card{
+    width: 400px;
+    height: 500px;
+    box-shadow: 5px 5px 20px rgb(110, 110, 122);
+    margin: 10px;
+}
+.project-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+@media only screen and (max-width: 1000px){
+    .project-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+
+.project-image{
+    width: 250px;
+    border-radius: 125px;
+    margin-top: 25px;
+}
+
+hr{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.project-link{
+    text-decoration: none;
+    color: blue;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.icon{display: none;
+}
+@media only screen and (max-width: 1000px){
+    .icon{
+        border: 0;
+        background-color: transparent;
+        color: white;
+        font-size: 30px;
+        display: block;
+        margin: 20px;
+    }
+    
+    ul{
+        display: none;
+    }
+
+    nav{
+        align-items: flex-start;
+    }
+
+}
